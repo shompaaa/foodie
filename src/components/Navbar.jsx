@@ -23,10 +23,10 @@ const Navbar = () => {
       </li>
       <li>
         <Link
-          href="/food"
-          className={pathName === "/food" ? "text-primary" : ""}
+          href="/foods"
+          className={pathName === "/foods" ? "text-primary" : ""}
         >
-          Food
+          All Foods
         </Link>
       </li>
       <li>
